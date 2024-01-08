@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backdndk"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewRegisterTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:text="ĐĂNG KÝ TÀI KHOẢN"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/editTextFullName"
+        android:layout_below="@+id/textViewRegisterTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+        android:hint="Họ và tên" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextFullName"
+        android:layout_marginTop="16dp"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="16dp"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_marginTop="16dp"
+        android:hint="Nhập lại mật khẩu"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextConfirmPassword"
+        android:layout_marginTop="24dp"
+        android:text="Đăng ký"
+        android:backgroundTint="@color/xanhn"
+        android:textColor="#fff"
+        android:layout_marginHorizontal="16dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonRegister"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:onClick="openSignActivity"
+        android:text="Đã có tài khoản"
+        android:textSize="18sp"
+        android:textStyle="italic|bold" />
+</RelativeLayout>
+

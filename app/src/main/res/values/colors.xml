@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="xam">#878686</color>
+    <color name="darkred">#9E3636</color>
+    <color name="xanhn">#8BC34A</color>
+    <color name="xanhduong">#00BCD4</color>
+    <color name="red">#F44336</color>
+    <color name="vang">#FFEB3B</color>
+</resources>

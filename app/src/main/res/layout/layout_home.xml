@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/travelback"
+    android:orientation="vertical">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        />
+
+    <Button
+        android:id="@+id/buttonMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="@color/xanhduong"
+        android:text="Xem vị trí hiện tại" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="@color/xanhn"
+        android:text="Chia sẻ, đánh giá" />
+
+    <Button
+        android:id="@+id/buttonNhaHang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Tìm quán ăn" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="@color/red"
+        android:text="Đăng xuất" />
+
+</LinearLayout>

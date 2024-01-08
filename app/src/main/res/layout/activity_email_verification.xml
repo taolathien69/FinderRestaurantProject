@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_email_verification.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewVerification"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_email_verification"/> <!-- Đặt hình ảnh xác nhận email tùy chọn -->
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewVerification"
+        android:layout_centerHorizontal="true"
+        android:text="Xác nhận Email"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_centerHorizontal="true"
+        android:text="Vui lòng kiểm tra email của bạn và nhấp vào liên kết xác nhận để hoàn tất quá trình đăng ký."
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/buttonDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewMessage"
+        android:layout_marginTop="24dp"
+        android:text="Hoàn tất"
+        android:background="?attr/colorPrimary"
+        android:textColor="#fff"
+        android:layout_marginHorizontal="16dp"/>
+</RelativeLayout>
